@@ -10,12 +10,12 @@ export default function GoogleSignIn() {
     try {
       const result = await signInWithPopup(auth, provider);
       const user = result.user;
-      console.log("✅ Logged in:", user);
+      console.log(" Logged in:", user);
       // alert(`Welcome ${user.displayName}`);
       toast.success (`Welcome ${user.displayName}`);
     } catch (error) {
-      console.error("❌ Error:", error);
-      toast.error("❌ Error:", error);
+      console.error(" Error:", error);
+      toast.error("Error:", error);
     }
     navigate("/account");
   };

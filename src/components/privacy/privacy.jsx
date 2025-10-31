@@ -3,7 +3,7 @@
 const PrivacyPolicy = () => {
   return (
     <div className="w-full max-w-5xl mx-auto px-4 py-8 md:py-12">
-      {/* Header */}
+      
       <div className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
           Privacy Policy

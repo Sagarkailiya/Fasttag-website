@@ -65,7 +65,7 @@ export default function FastagHeroSection() {
     <section className="py-12 px-4 bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row items-center gap-8">
-          {/* Left Side */}
+          
           <div className="lg:w-1/2 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               Recharge your FASTag online instantly with <br />
@@ -87,10 +87,10 @@ export default function FastagHeroSection() {
             </ul>
           </div>
 
-          {/* Right Side */}
+          
           <div className="lg:w-1/2 w-full max-w-md">
             <div className="bg-white rounded-xl shadow-xl overflow-hidden">
-              {/* Header */}
+              
               <div className="bg-[#00CF7E] px-6 py-5 flex items-center justify-between">
                 <label className="text-white font-semibold text-lg">
                   FASTag Recharge
@@ -98,7 +98,7 @@ export default function FastagHeroSection() {
                 
               </div>
 
-              {/* Form Content */}
+              
               <div className="p-6">
                 <input
                   type="text"

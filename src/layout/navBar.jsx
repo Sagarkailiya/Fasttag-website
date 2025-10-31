@@ -35,7 +35,7 @@ const NavBar = () => {
         </button>
       </div>
 
-      {/* Sidebar */}
+     
       <div
         className={`fixed top-0 right-0 w-full h-screen bg-white shadow-lg p-4 z-50
                     transition-transform duration-300 ease-in-out transform ${

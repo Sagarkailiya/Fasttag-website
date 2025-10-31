@@ -7,9 +7,9 @@ import LogoImage from '../assets/navbaricon/logo.webp'
 const Footer = () => {
   return (
     <div className='flex  flex-col  bg-amber-300 p-4 '>
-      {/* Top section: image left, list right */}
+      
       <div className='flex justify-between items-start flex-col sm:flex-row'>
-        {/* Left: Image */}
+        
         <div>
           <img src={LogoImage} alt="ddcc" className='w-24 h-auto pb-5' />
         </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
 
-        {/* Right: List */}
+       
        <div className=''>
   <h2 className="text-2xl font-semibold mb-2">Reach Us</h2>
   <ul className="space-y-2">
@@ -48,7 +48,7 @@ const Footer = () => {
 
       </div>
 
-      {/* Bottom section */}
+      
       <div className='mt-6 text-center'>
         <div>
           <span>© 2025 FastTag.All rights reserved</span>
