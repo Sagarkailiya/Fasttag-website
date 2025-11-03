@@ -20,42 +20,57 @@ cd Fasttag-website
 
 
 
-## Directory structure:
+Directory structure:
 └── sagarkailiya-fasttag-website/
     ├── README.md
     ├── eslint.config.js
+    ├── firebase.json
     ├── index.html
     ├── package.json
     ├── vite.config.js
-    └── src/
-        ├── App.css
-        ├── App.jsx
-        ├── firebase.js
-        ├── index.css
-        ├── main.jsx
-        ├── assets/
-        │   └── navbaricon/
-        │       └── logo.webp
-        ├── components/
-        │   ├── account/
-        │   │   └── account.jsx
-        │   ├── bankprovider/
-        │   │   └── bankprovider.jsx
-        │   ├── carousel/
-        │   │   └── carousel.jsx
-        │   ├── faq/
-        │   │   └── faq.jsx
-        │   ├── privacy/
-        │   │   └── privacy.jsx
-        │   ├── termandcondition/
-        │   │   └── term.tsx
-        │   └── vehicleform/
-        │       └── vehilenumber.jsx
-        ├── layout/
-        │   ├── footer.jsx
-        │   ├── mainlayout.jsx
-        │   └── navBar.jsx
-        └── pages/
-            ├── home.jsx
-            └── signin/
-                └── signin.jsx
+    ├── .firebaserc
+    ├── src/
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── firebase.js
+    │   ├── index.css
+    │   ├── main.jsx
+    │   ├── assets/
+    │   │   └── navbaricon/
+    │   │       └── logo.webp
+    │   ├── components/
+    │   │   ├── about/
+    │   │   │   └── about.jsx
+    │   │   ├── account/
+    │   │   │   └── account.jsx
+    │   │   ├── bankprovider/
+    │   │   │   └── bankprovider.jsx
+    │   │   ├── bottomimage/
+    │   │   │   └── bottom.jsx
+    │   │   ├── carousel/
+    │   │   │   └── carousel.jsx
+    │   │   ├── faq/
+    │   │   │   └── faq.jsx
+    │   │   ├── privacy/
+    │   │   │   └── privacy.jsx
+    │   │   ├── termandcondition/
+    │   │   │   └── term.tsx
+    │   │   └── vehicleform/
+    │   │       └── vehilenumber.jsx
+    │   ├── layout/
+    │   │   ├── footer.jsx
+    │   │   ├── mainlayout.jsx
+    │   │   └── navBar.jsx
+    │   └── pages/
+    │       ├── home.jsx
+    │       └── signin/
+    │           └── signin.jsx
+    └── .firebase/
+        ├── hosting.LmZpcmViYXNlXHdpbmdzYWktMTNjODdcaG9zdGluZw.cache
+        └── wingsai-13c87/
+            └── hosting/
+                ├── index.html
+                └── assets/
+                    ├── index-lWgX0so7.css
+                    └── logo-CvxW2qUu.webp
+
