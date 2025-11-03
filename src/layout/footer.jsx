@@ -6,7 +6,7 @@ import LogoImage from '../assets/navbaricon/logo.webp'
 
 const Footer = () => {
   return (
-    <div className='flex  flex-col  bg-amber-300 p-4 '>
+    <div className='flex  flex-col text-white  bg-[#1D546C] p-4 '>
       
       <div className='flex justify-between items-start flex-col sm:flex-row'>
         
@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
 
         <div>
-         <h3 class="text-xl font-bold mb-2">Quick Links</h3>
+         <h3 class="text-xl font-bold  text-white mb-2">Quick Links</h3>
           <ul className='space-y-2'>
             <Link to={'/termandcondition'} ><li>Terms & Conditions</li></Link>
             <Link to={'/privacypolicy'} ><li> Privacy Policy</li></Link>
@@ -30,15 +30,15 @@ const Footer = () => {
   <h2 className="text-2xl font-semibold mb-2">Reach Us</h2>
   <ul className="space-y-2">
     <li className="flex items-center gap-2">
-      <Mail className="w-5 h-5 text-gray-600" />
+      <Mail className="w-5 h-5 text-white" />
       <span>ops@FastTag.in</span>
     </li>
     <li className="flex items-center gap-2">
-      <Mail className="w-5 h-5 text-gray-600" />
+      <Mail className="w-5 h-5 text-white" />
       <span>tech@FastTag.in</span>
     </li>
     <li className="flex items-start gap-2">
-      <MapPinCheck className="w-5 h-5 text-gray-600 mt-1" />
+      <MapPinCheck className="w-5 h-5 text-white mt-1" />
       <span className=' w-60 text-wrap  '>
         Office No 15, Ground Floor, D-29, Sector 3, Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301.
       </span>

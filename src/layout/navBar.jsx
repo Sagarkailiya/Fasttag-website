@@ -14,7 +14,7 @@ const NavBar = () => {
   const handleItemClick = () => setIsOpen(false);
 
   return (
-    <div className='flex sticky top-0 z-50 bg-amber-300 justify-between items-center w-full p-2'>
+    <div className='flex sticky top-0 z-50 bg-[#1D546C] justify-between items-center w-full p-2'>
       <Link to='/' >
       <img src={LogoImage} alt="logo" className='w-24 h-auto' />
       </Link>

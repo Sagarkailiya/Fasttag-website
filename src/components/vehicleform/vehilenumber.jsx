@@ -119,6 +119,7 @@ export default function FastagHeroSection() {
                   <Zap className="w-4 h-4 fill-yellow-500 text-yellow-500" />
                   Get the best deals on FASTag Recharge
                 </small>
+                <span>Try this number for Vehicle details:PY01MW8675</span>
 
                {vehicleInfo && (
   <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-sm text-gray-800">

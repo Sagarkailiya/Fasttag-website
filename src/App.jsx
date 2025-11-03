@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
      <Toaster
-        // position="top-right"
+        
         toastOptions={{
           success: { style: { background: "#10B981", color: "#fff" } },
           error: { style: { background: "#EF4444", color: "#fff" } },
